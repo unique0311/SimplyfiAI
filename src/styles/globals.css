@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+html,
+body {
+  background: linear-gradient(0deg, #141414, #141414),
+    linear-gradient(0deg, #0E0E0E, #0E0E0E);
+}
+
+.on-time-bg {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #474EEB 0%, #7177EC 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(135deg, #45CC8B 0%, #2BC6BC 100%), lightgray -40px -141.047px / 114.035% 179.228% no-repeat;
+}
+
+.average-bg {
+  border-radius: 7px;
+  background: linear-gradient(0deg, #383838 0%, #383838 100%), #141414;
+}
+
+.loginBtn-bg {
+  border-radius: 7px;
+  background: linear-gradient(132deg, #8F47EB 0%, #EC7171 100%), linear-gradient(90deg, #474EEB 0%, #7177EC 100%), linear-gradient(0deg, #168D62 0%, #168D62 100%), linear-gradient(135deg, #45CC8B 0%, #2BC6BC 100%), linear-gradient(90deg, #474EEB 0%, #7177EC 100%), #212121;
+}
+
+.active {
+  background: linear-gradient(90deg, #474EEB 0%, #7177EC 100%),
+    linear-gradient(0deg, #6252DF, #6252DF);
+  border-radius: 10px;
+  color: white;
+}
+
+.send-bg {
+  background: linear-gradient(90deg, #474EEB 0%, #7177EC 100%);
+}
+
+.add-bg {
+  background: linear-gradient(0deg, #168D62, #168D62),
+    linear-gradient(0deg, #212121, #212121),
+    linear-gradient(114.34deg, #45CC8B 2.76%, #2BC6BC 98.03%),
+    linear-gradient(90deg, #474EEB 0%, #7177EC 100%);
+
+}
+
+.cost-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(114.34deg, #45CC8B 2.76%, #2BC6BC 98.03%);
+}
+
+.unit-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(90deg, #474EEB 0%, #7177EC 100%);
+}
+
+.bill-bg {
+  background: linear-gradient(0deg, #141414, #141414),
+    linear-gradient(0deg, #383838, #383838);
+}
+
+.send-input-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    linear-gradient(0deg, #222222, #222222);
+}
+
+.chat-search-bg {
+  background: linear-gradient(0deg, #141414, #141414),
+    linear-gradient(0deg, #383838, #383838);
+
+}
+
+.filter-bg {
+  background: linear-gradient(0deg, #141414, #141414),
+    linear-gradient(0deg, #222222, #222222);
+}
+
+.docu-bg {
+  background: linear-gradient(0deg, #1A1A1A, #1A1A1A),
+    linear-gradient(0deg, #262626, #262626);
+}
+
+.input-bg {
+  background: linear-gradient(0deg, #141414, #141414),
+    linear-gradient(0deg, #191919, #191919),
+    linear-gradient(0deg, #2B2B2B, #2B2B2B);
+}
+
+.mactive {
+  color: #6252DF;
+  background: #FFF;
+  border-radius: 10px;
+  padding: 0px 41px;
+  width: 195px;
+}
+
+.border-px {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.active label {
+  color: white
+}
+
+.inactive span {
+  color: white
+}
+
+label {
+  color: #7E7D87;
+}
+
+.overscroll::-webkit-scrollbar {
+  display: none
+}
+
+.team-comparison {
+  border-radius: 7px;
+  background: linear-gradient(0deg, #383838 0%, #383838 100%), #141414;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 100000px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: #6252DF;
+  border-radius: 100000px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #9587FF;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 100000px;
+}
+
+/* width */
+::-webkit-scrollbar { 
+  width: 5px; 
+  height: 5px;
+} 
+
+/* Track */
+::-webkit-scrollbar-track { 
+  background: #9a9a9a; 
+  border-radius: 1px; 
+} 
+
+/* Handle */
+::-webkit-scrollbar-thumb { 
+  background: #000000; 
+  border-radius: 1px; 
+} 
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover { 
+  background: #2e2c2c; 
+}
+
+.reminder-scrollbar::-webkit-scrollbar {
+  width: 3px;
+  border-radius: 100000px;
+}
+
+.reminder-scrollbar::-webkit-scrollbar-track {
+  border-radius: 100000px;
+}
+
+.reminder-scrollbar::-webkit-scrollbar-thumb {
+  background: #9587FF;
+  border-radius: 7px;
+  background: linear-gradient(90deg, #474EEB 0%, #7177EC 100%), linear-gradient(0deg, #168D62 0%, #168D62 100%), linear-gradient(135deg, #45CC8B 0%, #2BC6BC 100%), linear-gradient(90deg, #474EEB 0%, #7177EC 100%), #212121;
+}
+
+/* .swiper-button-next ,.swiper-button-prev{
+  width: 14px!important;
+  height: 14px!important;
+  color:#4A4A4D!important
+}
+.swiper-button-next::after ,.swiper-button-prev::after{
+  font-size: 14px!important;
+  color:#4A4A4D!important
+} */
+.swiper-container {
+  padding: 0 20px !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url('../assets/images/calendar-outline.svg') no-repeat;
+  width: 27px;
+  height: 27px;
+  border-width: none;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url('../assets/images/av_timer.svg') no-repeat;
+  width: 27px;
+  height: 27px;
+  border-width: none;
+}
+
+#loading-bar-spinner.spinner {
+  left: 50%;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -20px;
+  position: absolute;
+  z-index: 10 !important;
+  animation: loading-bar-spinner 400ms linear infinite;
+}
+
+@keyframes loading-bar-spinner {
+  0% {
+    transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* Add this CSS class for the bubble animation */
+/* Add this to your CSS file */
+@keyframes bubbleAnimation {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
+.bubble-loading {
+  animation: bubbleAnimation 1s infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* For EmailPreview Component */
+
+.emailPreview::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.emailPreview::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.emailPreview::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.emailPreview::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* For Firefox */
+.emailPreview {
+  scrollbar-width: thin; 
+  scrollbar-color: rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.1); 
+}
+
+
